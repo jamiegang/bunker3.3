@@ -159,7 +159,10 @@ emperor_reichstag_collegia = {
 		has_dlc = "Emperor"
 	}
 	emperor = {
-		max_free_cities = 3
+		global_trade_goods_size_modifier = 0.1
+	}
+	all = {
+		global_trade_goods_size_modifier = 0.05
 	}
 }
 #Decent
@@ -172,13 +175,13 @@ emperor_expand_gemeiner_pfennig = {
 		has_dlc = "Emperor"
 	}
 	emperor_per_prince = {
-		global_manpower = 0.1
-	}
-	elector_per_prince = {
 		global_manpower = 0.2
 	}
+	elector_per_prince = {
+		global_manpower = 0.3
+	}
 	province = {
-		local_friendly_movement_speed = 0.1
+		local_friendly_movement_speed = 0.15
 	}
 }
 #Decent
@@ -193,8 +196,8 @@ emperor_rechenschaft = {
 	emperor_per_prince = {
 		imperial_authority = 0.01
 	}
-	emperor = {
-		max_electors = 1
+	all = {
+		governing_capacity_modifier = 0.15
 	}
 }
 #Decent
@@ -207,7 +210,7 @@ emperor_geteilte_macht = {
 		has_dlc = "Emperor"
 	}
 	elector_per_prince = {
-		global_tax_income = 0.5
+		global_tax_income = 0.75
 	}
 	province = {
 		local_development_cost = -0.05
@@ -237,8 +240,8 @@ emperor_hofgericht = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	emperor = {
-		core_creation = -0.10
+	all = {
+		core_creation = -0.15
 	}
 	required_reform = emperor_perpetual_diet
 	disabled_by = emperor_reichstag_collegia
@@ -254,6 +257,7 @@ emperor_imperial_estates = {
 	}
 	emperor = {
 		imperial_authority = 0.25
+		infantry_power = 0.1
 	}
 }
 #Cent
@@ -264,15 +268,11 @@ emperor_erbkaisertum = {
 	}
 	emperor = {
 		imperial_authority = 0.25
+		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = 1
 	}
 	on_effect = {
-		if = {
-			limit = {
-				hre_religion_locked = no
-				hre_religion_treaty = no
-			}
-			set_hre_religion_treaty = yes
-		}
 		hre_inheritable = yes
 	}
 	off_effect = {
@@ -288,28 +288,17 @@ emperor_privilegia_de_non_appelando = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	member = {
-		stability_cost_modifier = -0.10
+	all = {
+		manpower_recovery_speed = 0.10
 	}
 	
 	emperor = {
-		imperial_authority = 0.25
+		land_forcelimit_modifier = 0.10
+		reinforce_cost_modifier = -0.1
 	}
 	on_effect = {
 	
 		emperor = {
-			country_event = { id = 9073 tooltip = vassalize_empire2 }
-		}
-		hidden_effect = {
-			every_country = {
-				limit = {
-					is_part_of_hre = yes
-					is_emperor = no
-					num_of_cities = 1
-					NOT = { vassal_of = ROOT }
-				}
-				country_event = { id = 9074 }
-			}
 		}
 	}
 	required_reform = emperor_erbkaisertum
@@ -321,11 +310,12 @@ emperor_renovatio = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	on_effect = {
 		emperor = {
-			country_event = { id = 9075 tooltip = renovatio_effect }
+		ae_impact = -0.2
+		global_autonomy = -0.03
+		prestige_decay = -0.01
 		}
-	}
+
 	required_reform = emperor_privilegia_de_non_appelando
 	gui_container = right_branch
 }
