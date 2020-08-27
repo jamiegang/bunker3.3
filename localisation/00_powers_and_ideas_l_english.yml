@@ -1,0 +1,210 @@
+﻿l_english:
+
+
+########## Carthage #########
+ 
+ X02_ideas:0 "Carthaginian Ideas"
+ X02_ideas_start:0 "Carthaginian Traditions"
+ X02_ideas_bonus:0 "Carthaginian Ambition"
+ x02_judge:0 "Institute Sophets"
+ x02_judge_desc:0 "Carthage was, in the past. A prosperous land, and a strong nation that occupied the land we call home. If we truly wish to recreate it's greatness, we need to adopt the traditions of Carthage."
+ x02_ship:0 "Fleets of Carthage"
+ x02_ship_desc:0 "Carthage can only press her influance on the seas and on others of the Mediterranean if we have the naval capacity to back up our words."
+ x02_navy:0 "Our Sea"
+ x02_navy_desc:0 "It is not enough that we have enough ships to control the sea, but we must also have the quality of ships to maintain it."
+ x02_merc:0 "Armies of Carthage"
+ x02_merc_desc:0 "While our focus is definately on the seas, it is becoming increasingly apparant that we need to boost the fighting strength of our armies to contend with the European forces."
+ x02_ports:0 "Ports of Carthage"
+ x02_ports_desc:0 "The expansion of our naval might has become a good source of employment for both ship builders and man within our nations. No other Mediterranean nation provides the quality of ship as we do!"
+ x02_development:0 "Land Revolution"
+ x02_development_desc:0 "Much of the land we occupy has little to no use, however advances in science are allowing for more and more unoccupied land to find uses within out nation. This situation is exploitable."
+ x02_corp:0 "Mercenary Corp of Carthage"
+ x02_corp_desc:0 "While we might not be able to draw as many men from our native land to our armies. We are perfectly able to pay for men of other nations to do so, and so we must for the good of our nation."
+ 
+ ########## Humanist into Industrial ##########
+ 
+ advanced_tools:0 "Advanced Tools"
+ advanced_tools_desc:0 "Better tools for our people mean greater yields of production."
+ urbanization: "Urbanization"
+ urbanization_desc:0 "With more and more people flocking to our towns and cities, it has become easier to recruit them into our military."
+ craftsmen_by_trade:0 "Craftsmen by trade"
+ craftsmen_by_trade_desc:0 "Our craftsmen are true professionals, and seldom make mistakes"
+ encourage_the_guilds:0 "Encourage the guilds"
+ encourage_the_guilds_desc:0 "The guilds are an important part of arming our nation when the need arises."
+ manage_the_borough:0 "Manage the Boroughs"
+ manage_the_borough_desc:0 "Proper management of the boroughs will allow more effective use of the peoples living there and the resources that can be withdrawn from within."
+ industry_expansion:0 "Industry Expansion"
+ industry_expansion_desc:0 "Aiding the expansion of industry within our realm will prove to benefit us greatly."
+ population_boom:0 "Population boom."
+ population_boom_desc:0 "The increase of our industry and urbanisation has lead to a boom in our population. This has lead to more people to take up jobs producing in the fields and factories alike."
+ 
+ 
+ ########## Aristocratic into Academia ##########
+ 
+ aristocracy_ideas:0 "Noble Academia Ideas"
+ aristocracy_ideas_bonus:0 "Full Academia"
+ pro_good_boots:0 "Good Honest Boots"
+ pro_good_boots_desc:0 "Our armies need to march far and wide to defend our homeland. At least we could do is supply them with good boots."
+ noble_officers:0 "Noble Officers"
+ noble_officers_desc:0 "The nobility see war as a means to gain new wealth, prestige and honour. No class enjoys war as much as they do, it might be wise to encourage them."
+ pro_training_fields:0 "Training Fields"
+ pro_training_fields_desc:0 "Our armies need extra space so that they can be trained, this training will be important should our nation be dragged into a war against a most un-nobled of enemy."
+ pro_professional_instructors:0 "Professional Instructors"
+ pro_professional_instructors_desc:0 "With well paid and professional instructors for our nation, recruitment has become much easier and faster than before."
+ pro_military_archive:0 "Military Archivists"
+ pro_military_archive_desc:0 "For every battle we fight, we have dedicated observers who will put to paper the strategy and tactics used by both sides to better document success and replicate it." 
+ military_traditions:0 "Military Traditions"
+ military_traditions_desc:0 "Military thought is constantly evolving and we ensure that our military thought evolves with it. By encouraging a tradition of service amongst our nobility, to be a man of status is to be a man who has won glory on the battlefield. Although bravery and stuff like that is always useful, there is nothing quite like outclassing your enemy to make it easy."
+ pro_professional_sailors:0 "Professional Sailors"
+ pro_professional_sailors_desc:0 "Only the finest sailors man our ships, and with that experiance. When they reach an older age in life, their experiance of maintenance becomes invaulable to later crews and builders."
+ international_nobility:0 "International Nobility"
+ international_nobility_desc:0 "International relations are a tricky business. Some say that the merchant class who are used to dealing with foreigners are best for this. Those who say this ignore the kindred ties that our noble families have established through the years, these ties should be taken advantage of to help our cause diplomatically."
+ 
+ ########## Espionage into Strategic ##########
+ 
+ spy_ideas:0 "Strategic Ideas"
+ spy_ideas_bonus:0 " Full Strategic"
+ noble_knights:0 "Noble Knights"
+ noble_knights_desc:0 "Supporting cavalry requires an economic system that produces a large number of surplus horses. If we were to guarantee the privileges of our noble class not only would they be much happier they would do much of the work to produce the needed horses. Our court fool described it as service guarantees serfs."
+ strat_cav:0 "Tactical Cavalry"
+ strat_cav_desc:0 "Strategic and tactical use of cavalry should be a focus of our nation, with these forces we can turn the tide of any battle."
+ strat_infiltrators:0 "Infiltrators"
+ strat_infiltrators_desc:0 "With the use of undercover operatives, we can survey the land more thoroughly before we attack. This extra intelligence will allow us to target the weak spots in the enemy defenses."
+ strat_shock:0 "Shock and Awe"
+ strat_shock_desc:0 "Sometimes, the best way to beat an enemy is to break their will in one fell swoop. For this to be achieved we must hit extremely hard, and extremely fast to break their will."
+ claim_fabrication:0 "Claim Fabrication"
+ claim_fabrication_desc:0 "Claiming something as yours is easy, persuading everyone else that you have a valid claim is much harder. By spreading our diplomatic net wide we can ensure that the people who matter know that this claim is ours."
+ vetting:0 "Vetting"
+ vetting_desc:0 "With so many offices for profit, we sometimes find that those who run our administration are susceptible to bribes from foreign powers. A few simple background checks will weed out the most prone to corruption."
+ privateers:0 "Privateers"
+ privateers_desc:0 "Waging war on enemy commerce rests on the apex of the first triad of victory. We will encourage crusty sea captains to strike at the enemy's trade."
+ strat_foreign_contacts:0 "Foreign Contacts"
+ strat_foreign_contacts_desc:0 "With the use of contacts from outside our nation, we can use the people of other countries to first weaken the enemy before we strike."
+ strat_forts:0 "Strategic Fortress"
+ strat_forts_desc: "Strategic placement of our forts allows for great coverage and more difficult route to attack our defences. While keeping the structure cheaper."
+ strat_man:0 "Strategic Manoeuvres"
+ strat_man_desc:0 "Our forces are used to and known for exploting terrain advantages. Going into battles with the mental preparation that the terrain is always to our advantage gives us an edge when battle begins."
+ strat_bayonet_leaders:0 "Bayonet Leaders"
+ strat_bayonet_leaders_desc:0 "Men who are well led will follow, so we will ensure that our officers will lead from the front."
+ 
+ ########## Expansion ##########
+ 
+ ex_agenda:0 "Imperial Agenda"
+ ex_agenda_desc:0 "Our nation is great, our neighbours not so much. Perhaps we can show them our greatness!"
+ ex_shining_faith:0 "Shining Faith"
+ ex_shining_faith_desc:0 "Our subjects recognise the importance of our faith, and they happly subject themselves to our ways."
+ ex_diplo:0 "Additional Diplomat"
+ ex_diplo_desc:0 "We need mroe diplomats as our Empire continues to grow."
+ ex_bene:0 "Imperial Benevolence"
+ ex_bene_desc:0 "In order to maintain peace within our realm, we must accepct the different religions that find themselves within our borders."
+ ex_reach:0 "Imperial Reach"
+ ex_reach_desc:0 "Our nations can project itself across vass distances."
+ ex_interferer:0 "Interferer"
+ ex_interferer_desc:0 "Sometimes, we must dabble in the sovereignty of other nations to ensure the satefy of our own."
+ ex_expedition:0 "Expeditionary Forces"
+ ex_expedition_desc:0 "It is perhaps more preferable to have a select force of veterans who are accustomed to venturing in the far reaches of the unknown to lead our troops in these areas."
+ 
+ ### Defensive ###
+ 
+ imp_unit_protect:0 "Military Armour"
+ imp_unit_protect_desc:0 "Our armies are better protected than our foriegn counter-parts, a well defended army is an alive army."
+
+ ### Offensive ###
+ tic_reserve_corps:0 "Reserve Corp"
+ tic_reserve_corps_desc:0 "With a maintained reserve corp, we can quickly reinforce our frontlines with fresh troops."
+ 
+ ### Economic ###
+ 
+ imp_admin_overwatch:0 "Administrative Overwatch"
+ imp_admin_overwatch_desc:0 "While we employ astute bureaucrats to maintain the internal working of our nation. We should also maintain watch over these workers and ensure they are acting in the nations best interest."
+ 
+ ### Administraitve ###
+ 
+ imp_civil:0 "Expand the Civil Service"
+ imp_civil_desc:0 "Institute an expanded civil service to help maintain the country."
+ 
+ ########## Humanist into Industrial ##########
+ 
+ humanist_ideas:0 "Industrial Ideas"
+ humanist_ideas_bonus:0 "Full Industrial"
+
+ ### Diplomatic ###
+ 
+ dip_honour:0 "Honourable State"
+ dip_honour_desc:0 "Our state diplomacy has managed to construct an image of our nation in a very good light, our reputation leaves us as one of the few honourable nations in the world."
+ local_nobility:0 "Local Nobility"
+ local_nobility_desc:0 "The nobility know they are simply better than normal people and will give their loyalty to those that are worthy. If we confirm their privileges they will of course remember our largess and be more resistant to the inducements of foreign powers."
+ 
+ ### Influance into Imperial ###
+ 
+ influence_ideas:0 "Imperial Ideas"
+ influence_ideas_bonus:0 "Full Imperial"
+ imp_magistrates:0 "Imperial Magistrates"
+ imp_magistrates_desc:0 "With the use of magistrates, we can administer justice to our subjects with much more ease and effeciency. In turn, our subjects will thank us for it."
+ 
+ ###############################################
+ # Policies
+ ###############################################
+ 
+ ### Innovative
+ technological_pursuits_act:0 "Technological Pursuits Act"
+ royal_academy_act:0 "Royal Academy Act"
+ great_recovery_act:0 "Great Recovery Act"
+ 
+ ### Religious
+ edict_of_expulsion:0 "Edict of Expulsion"
+ 
+ ### Economic
+ rapid_redeployment_policy:0 "Rapid Redeployment Policy"
+ intergrated_communites_act:0 "Intergrated Communities Act"
+ efficent_military_act:0 "Efficent Military Act"
+ 
+ ### Administraitve
+ free_company_act:0 "Free Company Act"
+ risk_assessment_policy:0 "Risk Assessment Policy"
+ 
+ ### Humanist / Industrial
+ ships_of_rate_act:0 "Ships of Rate Act"
+ military_schools_act:0 "Military Schools Act"
+ military_engineer_act:0 "Military Engineer Act"
+ danger_close_policy:0 "Danger Close Policy"
+ naval_industrial_act:0 "Naval Industrial Act"
+ 
+ ### Expansion
+ supply_train_act:0 "Supply Train Act"
+ new_order_act:0 "New Order Act"
+ aggressive_diplomacy:0 "Aggressive Diplomacy"
+ 
+ ### Diplomatic
+ the_smite_act:0 "The Smite Act"
+ policy_of_neutrality:0 "Policy of Neutrality"
+ overseas_embassies:0 "Overseas Embassies"
+ 
+ ### Trade
+ anti_smuggling_act:0 "Anti-Smuggling Act"
+ 
+ ### Maritime
+ naval_cannons_act:0 "Naval Cannons Act"
+ convoy_system:0 "Convoy System"
+ 
+ ### Exploration
+ nobility_embassy_act:0 "Nobility Embassy Act"
+ 
+ ### Influence / Imperial
+ interventionist_justification_act:0 "Interventionist Act"
+ elite_regiments_act:0 "Elite Regiments Act"
+ light_cavalry_doctrine:0 "Light Cavalry Doctrine"
+ full_sovereignty_act:0 "Full Sovereignty Act"
+  
+ ### Naval
+ combined_operations_act:0 "Combined Operations Act"
+ better_ships_policy:0 "Better Ships Policy"
+ armed_mercahnts_act:0 "Armed Merchants Act"
+ messenger_ships:0 "Messenger Ship Policy"
+ 
+ ### Aristocrtic / Professionalism
+ ship_excellence_act:0 "Ship Excellence Act"
+ military_officer_excellence_act:0 "Military Officer Excellence Policy"
+ 
+ ### Quantity 
+ quality_shipyards_act:0 "Quality Shipyards Act"

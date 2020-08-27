@@ -1,0 +1,21 @@
+#############################################
+#    CUSTOM MODIFIERS - BUNKER BALANCE      #
+#############################################
+
+b_silk_damascus = {
+
+	potential = {
+			normal_or_historical_nations = yes
+	}
+	trigger = {
+			tag = MAM 
+		}
+		
+	local_trade_goods_size_modifier = 0.5
+	
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+
+}
