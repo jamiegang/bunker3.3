@@ -1,3 +1,4 @@
+#Ref - Done
 emperor_reichsreform = {
 	empire = hre
 	potential = {
@@ -15,7 +16,7 @@ emperor_reichsreform = {
 	}
 	gui_container = mainline
 }
-
+#Ref - Done
 emperor_reichsregiment = {
 	empire = hre
 	potential = {
@@ -31,7 +32,7 @@ emperor_reichsregiment = {
 	required_reform = emperor_reichsreform
 	gui_container = mainline
 }
-
+#Ref 
 emperor_reichsstabilitaet = {
 	empire = hre
 	required_reform = emperor_reichsregiment
@@ -47,7 +48,7 @@ emperor_reichsstabilitaet = {
 		custom_tooltip = "EXPAND_EMPIRE_CB"
 	}
 }
-
+#Ref
 emperor_gemeinerpfennig = {
 	empire = hre
 	potential = {
@@ -62,7 +63,7 @@ emperor_gemeinerpfennig = {
 	required_reform = emperor_reichsstabilitaet
 	gui_container = mainline
 }
-
+#Ref
 emperor_perpetual_diet = {
 	empire = hre
 	required_reform = emperor_gemeinerpfennig
@@ -110,7 +111,7 @@ emperor_perpetual_diet = {
 		}
 	}
 }
-
+#Ref
 emperor_landsknechtswesen = {
 	empire = hre
 	required_reform = emperor_perpetual_diet
@@ -123,7 +124,7 @@ emperor_landsknechtswesen = {
 		imperial_mercenary_cost = -0.25
 	}
 }
-
+#Ref
 emperor_landfriede = {
 	empire = hre
 	potential = {
@@ -147,7 +148,7 @@ emperor_landfriede = {
 	required_reform = emperor_landsknechtswesen
 	gui_container = mainline
 }
-
+#Decent
 emperor_reichstag_collegia = {
 	empire = hre
 	required_reform = emperor_perpetual_diet
@@ -161,7 +162,7 @@ emperor_reichstag_collegia = {
 		max_free_cities = 3
 	}
 }
-
+#Decent
 emperor_expand_gemeiner_pfennig = {
 	empire = hre
 	required_reform = emperor_reichstag_collegia
@@ -180,7 +181,7 @@ emperor_expand_gemeiner_pfennig = {
 		local_friendly_movement_speed = 0.1
 	}
 }
-
+#Decent
 emperor_rechenschaft = {
 	empire = hre
 	required_reform = emperor_expand_gemeiner_pfennig
@@ -196,7 +197,7 @@ emperor_rechenschaft = {
 		max_electors = 1
 	}
 }
-
+#Decent
 emperor_geteilte_macht = {
 	empire = hre
 	required_reform = emperor_rechenschaft
@@ -212,7 +213,7 @@ emperor_geteilte_macht = {
 		local_development_cost = -0.05
 	}
 }
-
+#Decent
 emperor_reichskrieg = {
 	empire = hre
 	required_reform = emperor_geteilte_macht
@@ -230,7 +231,7 @@ emperor_reichskrieg = {
 		enable_imperial_realm_war = no
 	}
 }
-
+#Cent
 emperor_hofgericht = { 
 	empire = hre
 	potential = {
@@ -243,7 +244,7 @@ emperor_hofgericht = {
 	disabled_by = emperor_reichstag_collegia
 	gui_container = right_branch
 }
-
+#Cent
 emperor_imperial_estates = {
 	empire = hre
 	required_reform = emperor_hofgericht
@@ -255,7 +256,7 @@ emperor_imperial_estates = {
 		imperial_authority = 0.25
 	}
 }
-
+#Cent
 emperor_erbkaisertum = {
 	empire = hre
 	potential = {
@@ -280,7 +281,7 @@ emperor_erbkaisertum = {
 	required_reform = emperor_imperial_estates
 	gui_container = right_branch
 }
-
+#Cent
 emperor_privilegia_de_non_appelando = {
 	empire = hre
 	war = yes			#this may cause a war, so special AI check needed, to not lose many.
@@ -314,7 +315,7 @@ emperor_privilegia_de_non_appelando = {
 	required_reform = emperor_erbkaisertum
 	gui_container = right_branch
 }
-
+#Cent
 emperor_renovatio = {
 	empire = hre
 	potential = {
