@@ -1,3 +1,6 @@
+--- Lag Fix
+NDefines.NEngine.EVENT_PROCESS_OFFSET = 30 ---Vanilla 25
+
 
 --Diplomacy
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10
