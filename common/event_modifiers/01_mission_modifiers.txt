@@ -4211,3 +4211,6 @@ burgundy_salt = {
 devout_burgundians = {
 	discipline = 0.025
 }
+fra_agressive_exp = {
+	ae_impact = -0.1
+}
