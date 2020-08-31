@@ -44,9 +44,6 @@ emperor_reichsstabilitaet = {
 	province = {
 		local_state_maintenance_modifier = -0.25
 	}
-	on_effect = {
-		custom_tooltip = "EXPAND_EMPIRE_CB"
-	}
 }
 #Ref
 emperor_gemeinerpfennig = {
@@ -55,10 +52,10 @@ emperor_gemeinerpfennig = {
 		has_dlc = "Emperor"
 	}
 	all = {
-		diplomatic_reputation = 1
+		global_tax_modifier = 0.10
 	}
 	emperor_per_prince = {
-		global_tax_income = 0.5
+		global_tax_income = 1
 	}
 	required_reform = emperor_reichsstabilitaet
 	gui_container = mainline
@@ -74,7 +71,7 @@ emperor_perpetual_diet = {
 	}
 	
 	emperor = {
-		free_city_imperial_authority = 0.5
+		imperial_authority = 0.25
 	}
 	on_effect = {
 		custom_tooltip = "PERPETUAL_DIET_ESTABLISHED"
@@ -122,6 +119,8 @@ emperor_landsknechtswesen = {
 	}
 	all = {
 		imperial_mercenary_cost = -0.25
+		war_exhaustion = -0.03
+		technology_cost = -0.05
 	}
 }
 #Ref
@@ -131,19 +130,13 @@ emperor_landfriede = {
 		has_dlc = "Emperor"
 	}
 	all = {
-		technology_cost = -0.05
+		advisor_cost = -0.10
 	}
 	emperor = {
 		prestige = 0.5
 	}
 	province = {
 		local_institution_spread = 0.1
-	}
-	on_effect = {
-		internal_hre_cb = no
-	}
-	off_effect = {
-		internal_hre_cb = yes
 	}
 	required_reform = emperor_landsknechtswesen
 	gui_container = mainline
@@ -159,7 +152,7 @@ emperor_reichstag_collegia = {
 		has_dlc = "Emperor"
 	}
 	emperor = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
 	}
 	all = {
 		global_trade_goods_size_modifier = 0.05
@@ -270,7 +263,6 @@ emperor_erbkaisertum = {
 		imperial_authority = 0.25
 		monarch_admin_power = 1
 		monarch_diplomatic_power = 1
-		monarch_military_power = 1
 	}
 	on_effect = {
 		hre_inheritable = yes
@@ -288,7 +280,7 @@ emperor_privilegia_de_non_appelando = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	all = {
+	member = {
 		manpower_recovery_speed = 0.10
 	}
 	
@@ -311,8 +303,8 @@ emperor_renovatio = {
 		has_dlc = "Emperor"
 	}
 		emperor = {
-		ae_impact = -0.2
-		global_autonomy = -0.03
+		land_morale = 0.05
+		army_tradition_decay = -0.01
 		prestige_decay = -0.01
 		}
 

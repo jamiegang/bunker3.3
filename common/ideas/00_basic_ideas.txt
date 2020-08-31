@@ -151,7 +151,7 @@ defensive_ideas = {
 		reinforce_speed = 0.20
 		
 	}
-	imp_unit_protect = {
+	unit_protect = {
 		shock_damage_received = -0.05
 		fire_damage_received = -0.05
 	}
