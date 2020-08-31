@@ -54,6 +54,8 @@ country_event = {
 			name = "burgundy_death"
 			duration = 3650
 		}
+	}
+}
 
 	
 #############################################

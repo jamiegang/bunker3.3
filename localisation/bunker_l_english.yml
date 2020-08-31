@@ -8,3 +8,6 @@
  hre_modifiers1:0 "Holy Roman decentralization"
  hre_modifiers2:0 "First Holy Roman centralization"
  hre_modifiers3:0 "Second Holy Roman centralization"
+ bunker.2.t:0 "The King is Dead"
+ bunker.2.d:0 "The King is dead a tragedy has occured!"
+ bunker.2.a:0 "The nation shall mourn this day."
